@@ -1,0 +1,23 @@
+.blog ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(68, 196, 228, 0.315);
+    margin-top: 0;
+    padding-left: 0;
+}
+.blog li {
+    list-style: none;
+    margin: 20px 30px;
+}
+.blog li a {
+    text-decoration: none;
+    color: rgb(49, 20, 156);
+    font-size: 22px;
+    font-weight: 600;
+}
+.blog li a:hover,
+.blog li a:active,
+.blog li .active {
+    color: rgb(207, 13, 165);
+}

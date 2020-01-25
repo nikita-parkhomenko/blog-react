@@ -1,0 +1,14 @@
+.all-posts {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.all-posts h1 {
+    font-size: 48px;
+    color: rgb(17, 17, 17);
+}
+.posts-wrapper {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}

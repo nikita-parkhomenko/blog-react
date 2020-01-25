@@ -1,0 +1,24 @@
+.full-post {
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+}
+
+button {
+    color: red;
+    margin: 5px 0;
+    padding: 10px;
+    font: inherit;
+    border: 1px solid #e00000;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+button:hover,
+button:active {
+    color: darkred;
+}
